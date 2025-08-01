@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ceda04ccb6b010478630b5d31da3790, type: 3}
+  m_Name: SoundManager
+  m_EditorClassIdentifier: 
+  grabRef:
+    Guid:
+      Data1: -109360912
+      Data2: 1337171761
+      Data3: 298326145
+      Data4: 1751651873
+    Path: event:/Grab
+  releaseRef:
+    Guid:
+      Data1: 447892040
+      Data2: 1186219289
+      Data3: 998646411
+      Data4: -1332721022
+    Path: event:/Release
+  pullRef:
+    Guid:
+      Data1: 1413608902
+      Data2: 1286305766
+      Data3: 1516303795
+      Data4: 1179202720
+    Path: event:/HolsterPull
+  inRef:
+    Guid:
+      Data1: 493831730
+      Data2: 1203197995
+      Data3: -1311596879
+      Data4: 580674232
+    Path: event:/HolsterIn
+  fireRef:
+    Guid:
+      Data1: 1479224079
+      Data2: 1295278202
+      Data3: 173517493
+      Data4: -207749174
+    Path: event:/GunShot
+  landingRef:
+    Guid:
+      Data1: 1971272252
+      Data2: 1254527894
+      Data3: 2002743427
+      Data4: -1411146614
+    Path: event:/Landing
+  backgroundRef:
+    Guid:
+      Data1: 1320268936
+      Data2: 1272800689
+      Data3: -197460817
+      Data4: 2033411075
+    Path: event:/BackGround
+  eggBurstRef:
+    Guid:
+      Data1: -577875018
+      Data2: 1177648805
+      Data3: 1794734271
+      Data4: -1209371372
+    Path: event:/EggCracking
+  introRef:
+    Guid:
+      Data1: -1293685138
+      Data2: 1139583865
+      Data3: -1986251099
+      Data4: -1298370761
+    Path: event:/MainMenu/Intro1
+  centipedeBiteRef:
+    Guid:
+      Data1: 331220572
+      Data2: 1167345526
+      Data3: 2037899701
+      Data4: 1094180962
+    Path: event:/CentipedeBite
+  centipedeDeathRef:
+    Guid:
+      Data1: -561584292
+      Data2: 1119532803
+      Data3: -1264128598
+      Data4: -921721385
+    Path: event:/CentipedeDeath
+  centipedeFlyRef:
+    Guid:
+      Data1: -231006347
+      Data2: 1239016525
+      Data3: 529786771
+      Data4: -1708660443
+    Path: event:/CentipedeFly
+  lanternFlyRef:
+    Guid:
+      Data1: 1102509240
+      Data2: 1262553086
+      Data3: 252139697
+      Data4: 153335065
+    Path: event:/LanternFly
+  mouthAttackRef:
+    Guid:
+      Data1: 1552043879
+      Data2: 1087781287
+      Data3: 28855683
+      Data4: 1082967152
+    Path: event:/MouthAttack
+  mouthDetectRef:
+    Guid:
+      Data1: -1640102615
+      Data2: 1085438260
+      Data3: -1237314937
+      Data4: -1014519355
+    Path: event:/MouthDetect
+  mouthIdleRef:
+    Guid:
+      Data1: -131834643
+      Data2: 1323016144
+      Data3: -596825447
+      Data4: 479416028
+    Path: event:/MouthIdle
+  mouthImpactRef:
+    Guid:
+      Data1: -48176366
+      Data2: 1216401822
+      Data3: 354431657
+      Data4: -420789149
+    Path: event:/MouthImpact
+  spiderCrawlRef:
+    Guid:
+      Data1: 1250070136
+      Data2: 1331763729
+      Data3: -220498535
+      Data4: 619135567
+    Path: event:/SpiderCrawl
+  spiderCrawlWebRef:
+    Guid:
+      Data1: -65993848
+      Data2: 1104989120
+      Data3: -2045108864
+      Data4: -944038516
+    Path: event:/SpiderCrawlWeb
+  spiderHitRef:
+    Guid:
+      Data1: 695793010
+      Data2: 1207903999
+      Data3: 278659244
+      Data4: -727251161
+    Path: event:/SpiderHit

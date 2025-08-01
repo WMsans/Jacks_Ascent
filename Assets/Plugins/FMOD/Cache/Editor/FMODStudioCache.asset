@@ -1,0 +1,856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9140684880346441490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Falling
+  m_EditorClassIdentifier: 
+  Path: event:/Falling
+  Guid:
+    Data1: 531145373
+    Data2: 1207140791
+    Data3: 1408090283
+    Data4: -333743061
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3130
+--- !u!114 &-8928890775209808153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CentipedeFly
+  m_EditorClassIdentifier: 
+  Path: event:/CentipedeFly
+  Guid:
+    Data1: -231006347
+    Data2: 1239016525
+    Data3: 529786771
+    Data4: -1708660443
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 7358
+--- !u!114 &-8484831491090444433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/EggCracking
+  m_EditorClassIdentifier: 
+  Path: event:/EggCracking
+  Guid:
+    Data1: -577875018
+    Data2: 1177648805
+    Data3: 1794734271
+    Data4: -1209371372
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.2
+  Length: 0
+--- !u!114 &-6985612682268956503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HolsterIn
+  m_EditorClassIdentifier: 
+  Path: event:/HolsterIn
+  Guid:
+    Data1: 493831730
+    Data2: 1203197995
+    Data3: -1311596879
+    Data4: 580674232
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.2
+  Length: 0
+--- !u!114 &-5843504551356625596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638895093282987615
+  FileSizes:
+  - Name: Desktop
+    Value: 6704768
+  Exists: 1
+--- !u!114 &-5297338714663591890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpiderCrawl
+  m_EditorClassIdentifier: 
+  Path: event:/SpiderCrawl
+  Guid:
+    Data1: 1250070136
+    Data2: 1331763729
+    Data3: -220498535
+    Data4: 619135567
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.8
+  Length: 8603
+--- !u!114 &-5150280883722565845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CentipedeDeath
+  m_EditorClassIdentifier: 
+  Path: event:/CentipedeDeath
+  Guid:
+    Data1: -561584292
+    Data2: 1119532803
+    Data3: -1264128598
+    Data4: -921721385
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3908763882947927825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackGround
+  m_EditorClassIdentifier: 
+  Path: event:/BackGround
+  Guid:
+    Data1: 1320268936
+    Data2: 1272800689
+    Data3: -197460817
+    Data4: 2033411075
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2188093800975709291}
+  - {fileID: -2642009561609089265}
+  - {fileID: 6971806701300294031}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9000
+--- !u!114 &-3826317398890269197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Release
+  m_EditorClassIdentifier: 
+  Path: event:/Release
+  Guid:
+    Data1: 447892040
+    Data2: 1186219289
+    Data3: 998646411
+    Data4: -1332721022
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1.6
+  Length: 0
+--- !u!114 &-2787753850370777372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Grab
+  m_EditorClassIdentifier: 
+  Path: event:/Grab
+  Guid:
+    Data1: -109360912
+    Data2: 1337171761
+    Data3: 298326145
+    Data4: 1751651873
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 1.6
+  Length: 0
+--- !u!114 &-2642009561609089265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackGround/IsDetected
+  m_EditorClassIdentifier: 
+  Name: IsDetected
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4005491854
+    data2: 3865464684
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-2486447394458529976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MouthImpact
+  m_EditorClassIdentifier: 
+  Path: event:/MouthImpact
+  Guid:
+    Data1: -48176366
+    Data2: 1216401822
+    Data3: 354431657
+    Data4: -420789149
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1893810381167750495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CentipedeBite
+  m_EditorClassIdentifier: 
+  Path: event:/CentipedeBite
+  Guid:
+    Data1: 331220572
+    Data2: 1167345526
+    Data3: 2037899701
+    Data4: 1094180962
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1300400281950334560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GunShot
+  m_EditorClassIdentifier: 
+  Path: event:/GunShot
+  Guid:
+    Data1: 1479224079
+    Data2: 1295278202
+    Data3: 173517493
+    Data4: -207749174
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.2
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2791822980325751395}
+  - {fileID: -5843504551356625596}
+  EditorEvents:
+  - {fileID: -1300400281950334560}
+  - {fileID: -6985612682268956503}
+  - {fileID: -3826317398890269197}
+  - {fileID: 815385279473229022}
+  - {fileID: -2787753850370777372}
+  - {fileID: -2486447394458529976}
+  - {fileID: 1413954860622806089}
+  - {fileID: 8355749645991966727}
+  - {fileID: 4936395931228148421}
+  - {fileID: -1893810381167750495}
+  - {fileID: -5150280883722565845}
+  - {fileID: 1104812607904037358}
+  - {fileID: 6296453619301904124}
+  - {fileID: -8928890775209808153}
+  - {fileID: -5297338714663591890}
+  - {fileID: 4206890957466968890}
+  - {fileID: -3908763882947927825}
+  - {fileID: -9140684880346441490}
+  - {fileID: -8484831491090444433}
+  - {fileID: 5023380598870072749}
+  - {fileID: 4485585044203194372}
+  - {fileID: 5493722919463416913}
+  - {fileID: 6525985914860107998}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -5843504551356625596}
+  StringsBanks:
+  - {fileID: 2791822980325751395}
+  cacheVersion: 131848
+  cacheTime: 638895093285286434
+  SerializableEventsDict:
+  - key: event:/GunShot
+    index: 0
+  - key: event:/HolsterIn
+    index: 1
+  - key: event:/Release
+    index: 2
+  - key: event:/HolsterPull
+    index: 3
+  - key: event:/Grab
+    index: 4
+  - key: event:/MouthImpact
+    index: 5
+  - key: event:/ChasingSFX
+    index: 6
+  - key: event:/MouthDetect
+    index: 7
+  - key: event:/Landing
+    index: 8
+  - key: event:/CentipedeBite
+    index: 9
+  - key: event:/CentipedeDeath
+    index: 10
+  - key: event:/MouthAttack
+    index: 11
+  - key: event:/SpiderHit
+    index: 12
+  - key: event:/CentipedeFly
+    index: 13
+  - key: event:/SpiderCrawl
+    index: 14
+  - key: event:/SpiderCrawlWeb
+    index: 15
+  - key: event:/BackGround
+    index: 16
+  - key: event:/Falling
+    index: 17
+  - key: event:/EggCracking
+    index: 18
+  - key: event:/LanternFly
+    index: 19
+  - key: event:/MouthIdle
+    index: 20
+  - key: event:/MainMenu/Intro1
+    index: 21
+  - key: event:/MainMenu/Intro2
+    index: 22
+--- !u!114 &815385279473229022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/HolsterPull
+  m_EditorClassIdentifier: 
+  Path: event:/HolsterPull
+  Guid:
+    Data1: 1413608902
+    Data2: 1286305766
+    Data3: 1516303795
+    Data4: 1179202720
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.2
+  Length: 0
+--- !u!114 &1104812607904037358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MouthAttack
+  m_EditorClassIdentifier: 
+  Path: event:/MouthAttack
+  Guid:
+    Data1: 1552043879
+    Data2: 1087781287
+    Data3: 28855683
+    Data4: 1082967152
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1413954860622806089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChasingSFX
+  m_EditorClassIdentifier: 
+  Path: event:/ChasingSFX
+  Guid:
+    Data1: 667754261
+    Data2: 1090993192
+    Data3: 1245291682
+    Data4: -272034151
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6675732473160997696}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10976
+--- !u!114 &2188093800975709291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackGround/IsFalling
+  m_EditorClassIdentifier: 
+  Name: IsFalling
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3325934308
+    data2: 1398384569
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2791822980325751395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638895093285286434
+  FileSizes:
+  - Name: Desktop
+    Value: 1886
+  Exists: 1
+--- !u!114 &4206890957466968890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpiderCrawlWeb
+  m_EditorClassIdentifier: 
+  Path: event:/SpiderCrawlWeb
+  Guid:
+    Data1: -65993848
+    Data2: 1104989120
+    Data3: -2045108864
+    Data4: -944038516
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 2.8
+  Length: 4231
+--- !u!114 &4485585044203194372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MouthIdle
+  m_EditorClassIdentifier: 
+  Path: event:/MouthIdle
+  Guid:
+    Data1: -131834643
+    Data2: 1323016144
+    Data3: -596825447
+    Data4: 479416028
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4936395931228148421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Landing
+  m_EditorClassIdentifier: 
+  Path: event:/Landing
+  Guid:
+    Data1: 1971272252
+    Data2: 1254527894
+    Data3: 2002743427
+    Data4: -1411146614
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5023380598870072749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LanternFly
+  m_EditorClassIdentifier: 
+  Path: event:/LanternFly
+  Guid:
+    Data1: 1102509240
+    Data2: 1262553086
+    Data3: 252139697
+    Data4: 153335065
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 3.5
+  Length: 5098
+--- !u!114 &5493722919463416913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/Intro1
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/Intro1
+  Guid:
+    Data1: -1293685138
+    Data2: 1139583865
+    Data3: -1986251099
+    Data4: -1298370761
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 90259
+--- !u!114 &6296453619301904124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SpiderHit
+  m_EditorClassIdentifier: 
+  Path: event:/SpiderHit
+  Guid:
+    Data1: 695793010
+    Data2: 1207903999
+    Data3: 278659244
+    Data4: -727251161
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6525985914860107998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainMenu/Intro2
+  m_EditorClassIdentifier: 
+  Path: event:/MainMenu/Intro2
+  Guid:
+    Data1: 869802121
+    Data2: 1268771782
+    Data3: -1165996880
+    Data4: 1129452508
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 98952
+--- !u!114 &6675732473160997696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ChasingSFX/IsChasing
+  m_EditorClassIdentifier: 
+  Name: IsChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3299431281
+    data2: 3660753872
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6971806701300294031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BackGround/IsChasing
+  m_EditorClassIdentifier: 
+  Name: IsChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3299431281
+    data2: 3660753872
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8355749645991966727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MouthDetect
+  m_EditorClassIdentifier: 
+  Path: event:/MouthDetect
+  Guid:
+    Data1: -1640102615
+    Data2: 1085438260
+    Data3: -1237314937
+    Data4: -1014519355
+  Banks:
+  - {fileID: -5843504551356625596}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
